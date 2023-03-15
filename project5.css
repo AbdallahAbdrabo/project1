@@ -190,6 +190,10 @@ header{
         border-radius: 20px;
         border-left: 5px;
     }
+      .home-inp input:last-child{
+        right: 0;
+    }
+    
     
 }
 @media (max-width:768px){
