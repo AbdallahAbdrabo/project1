@@ -9,12 +9,14 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url(slider5.jpg);
+
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
 header{
-    position: fixed;
+    
     width: 100%;
     top: 0%;
     right:0 ;
@@ -155,13 +157,7 @@ header{
 .right a:hover{
     color: rgb(188, 126, 188);
 }
-/* @media (min-width:995px){
-    .fa-solid {
-        display: none;
 
-    }
-
-} */
 
 @media (max-width:995px){
     header{
@@ -169,10 +165,7 @@ header{
         transition: 0.3s;
     }
    
-    /* .fa-solid {
-        display: none;
-
-    } */
+    
 }
 @media (max-width:376px){
     header{
@@ -190,15 +183,26 @@ header{
         border-radius: 20px;
         border-left: 5px;
     }
-      .home-inp input:last-child{
-        right: 0;
+    .home-inp input:last-child{
+        right: 10%;
     }
-    
+    .home2{
+        top: 1%; 
+    }
+   
     
 }
+@media(max-width:273px){
+    .home-inp input:last-child{
+        bottom: -100%;
+    }
+
+}
+
 @media (max-width:768px){
+  
     .home2{
-        top: 80%;
+        top: 80%; 
     }
     .home2 h4{
         font-size: 15px;
@@ -212,7 +216,11 @@ header{
 
   
 }
+
 @media (max-width:666px){
+    body{
+        background-image: url(sl.jpg);
+    }
    
     .nav_list{
         position: absolute;
