@@ -247,7 +247,8 @@ header{
         right: -130px;
     }
     .nav_list.open{
-        top: 100%;
+        top: 100px;
+        z-index:10;
         
     }
     .fa-solid {
